@@ -1,22 +1,20 @@
 pipeline {
-    stage {
-        stage ('Initialize') {
+    
+        stage('Initialize') {
             steps {
                 sh echo "Initilizing the code File"
             }
         }
-        stage ('Build') {
+        stage('Build') {
             steps {
                 sh echo "hello World"
             }
         }
         
-        stage ('Deplpy') {
+        stage('Deplpy') {
             steps {
                 sh echo "Deploying the code"
             }
         }
-           
-            
-        }
+          
     }
