@@ -3,18 +3,18 @@ pipeline {
     stages{
         stage('Initialize') {
             steps {
-                sh echo "Initilizing the code File"
+                sh 'echo "Initilizing the code File"'
             }
         }
         stage('Build') {
             steps {
-                sh echo "hello World"
+                sh 'echo "hello World"'
             }
         }
         
         stage('Deplpy') {
             steps {
-                sh echo "Deploying the code"
+                sh 'echo "Deploying the code"'
             }
         }
     }
