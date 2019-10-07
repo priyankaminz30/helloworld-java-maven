@@ -1,5 +1,6 @@
 pipeline {
     
+    stages{
         stage('Initialize') {
             steps {
                 sh echo "Initilizing the code File"
@@ -16,5 +17,6 @@ pipeline {
                 sh echo "Deploying the code"
             }
         }
+    }
           
     }
