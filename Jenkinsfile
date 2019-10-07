@@ -1,5 +1,4 @@
 pipeline {
-    agent any
     stage {
         stage ('Initialize') {
             steps {
